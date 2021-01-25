@@ -14,7 +14,7 @@ sudo apt install mysql-server -y
 wget https://github.com/roundcube/roundcubemail/releases/download/1.3.8/roundcubemail-1.3.8.tar.gz
 tar -xvf roundcubemail-1.3.8.tar.gz
 sudo mv roundcubemail-1.3.8 /usr/share/nginx/roundcubemail
-sudo mv champiaoFile /tmp
+sudo cp champiaoFile /tmp
 cd /usr/share/nginx/roundcubemail
 sudo apt install composer
 rm -rf composer.json-dist

@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt update -y; sudo apt upgrade -y
+sudo apt update -y; sudo apt upgrade -y -f
+sudo apt install openssh-client openssh-server -y
 sudo apt install nginx -y 
 sudo apt install postfix -y 
 sudo apt install dovecot -y 
